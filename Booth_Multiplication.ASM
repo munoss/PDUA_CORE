@@ -1,11 +1,11 @@
 			JMP		CTE
 			INIT_IF
-Data_A	:	0x00				; Data_A inicializado en 0
-Q		:	0xFD				; Valor de Q
-M		:	0x07				; valor de M
+Data_A		:	0x00				; Data_A inicializado en 0
+Q		:	0xF6				; Valor de Q
+M		:	0x64				; valor de M
 Q1		:	0X00 				; Q-1 inicializado en 0
-Count	:	0x00				; Valor de Count conforme el número de bits
-INIT_VAR:	MOV		DPTR, CTE	; Inicializar Data_A
+Count		:	0x08				; Valor de Count conforme el número de bits
+INIT_VAR	:	MOV		DPTR, CTE	; Inicializar Data_A
 			Data_A		
 			MOV 	ACC, CTE
 			0x00
